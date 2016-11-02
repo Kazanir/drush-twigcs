@@ -1,0 +1,17 @@
+{
+    "name": "kazanir/drush-twigcs",
+    "description": "Drush command to pre-compile Twig templates without a database connection.",
+    "type": "drupal-drush",
+    "require": {
+        "drush/drush": "~8.0",
+        "php": "~7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Sieber",
+            "email": "kazanir@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
