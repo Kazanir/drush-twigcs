@@ -4,7 +4,7 @@
     "type": "drupal-drush",
     "require": {
         "drush/drush": "~8.0",
-        "php": "~7.0"
+        "hhvm": "*"
     },
     "license": "MIT",
     "authors": [
