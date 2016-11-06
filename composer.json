@@ -3,7 +3,7 @@
     "description": "Drush command to pre-compile Twig templates without a database connection.",
     "type": "drupal-drush",
     "require": {
-        "drush/drush": "~8.0",
+        "drush/drush": ">=8.0",
         "hhvm": "*"
     },
     "license": "MIT",
