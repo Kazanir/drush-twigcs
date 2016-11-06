@@ -14,7 +14,7 @@ use Drush\Log\LogLevel;
 function twigcs_drush_command() {
   $items['twig-compile'] = array(
     'description' => 'Compile all Twig templates(s) in standalone mode.',
-    'aliases' => array('twigc'),
+    'aliases' => array('twigcs'),
     'bootstrap' => DRUSH_BOOTSTRAP_DRUPAL_SITE,
     'core' => array('8+'),
   );
