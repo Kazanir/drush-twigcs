@@ -12,7 +12,7 @@ use Drush\Log\LogLevel;
  * Implements hook_drush_command().
  */
 function twigcs_drush_command() {
-  $items['twig-compile'] = array(
+  $items['twig-compile-standalone'] = array(
     'description' => 'Compile all Twig templates(s) in standalone mode.',
     'aliases' => array('twigcs'),
     'bootstrap' => DRUSH_BOOTSTRAP_DRUPAL_SITE,
@@ -21,7 +21,7 @@ function twigcs_drush_command() {
   return $items;
 }
 
-function drush_twig_compile() {
+function drush_twigcs_twig_compile_standalone() {
   $bootstrap = \Drush::bootstrap();
   // Scan all modules and themes. By (ab)using DRUSH_BOOTSTRAP_DRUPAL_SITE we
   // lose the ability to exclude modules, but no longer require database access
